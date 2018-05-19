@@ -23,10 +23,10 @@
             swapForms() {
                 if(this.form !== 'login') {
                     this.form = 'login';
-                    this.actionText = 'Back to login';
+                    this.actionText = 'Forgot your password?';
                 } else {
                     this.form = 'forgotPassword';
-                    this.actionText = 'Forgot your password?';
+                    this.actionText = 'Back to login';
                 }
             },
             isLoginForm() {
