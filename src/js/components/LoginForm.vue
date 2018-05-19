@@ -41,11 +41,11 @@
     };
 </script>
 
-<style>
-  #login input {
+<style scoped>
+  input {
     display: block;
   }
-  #login p {
+  p {
     color: blue;
     cursor: pointer;
   }
